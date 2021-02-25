@@ -30,11 +30,5 @@
         "psr-4": {
             "Rcs\\AdminBundle\\Tests\\": "tests/"
         }
-    },
-    "extra": {
-        "symfony": {
-            "allow-contrib": false,
-            "require": "5.2.*"
-        }
     }
 }
