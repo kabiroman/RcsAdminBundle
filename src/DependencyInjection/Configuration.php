@@ -1,0 +1,35 @@
+<?php
+/**
+ * This file is part of the Rcs\AdminBundle package.
+ *
+ * (c) Ruslan Kabirov <kabirovruslan@gmail.com>
+ *
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
+ */
+
+namespace Rcs\AdminBundle\DependencyInjection;
+
+use Symfony\Component\Config\Definition\Builder\TreeBuilder;
+use Symfony\Component\Config\Definition\ConfigurationInterface;
+
+/**
+ * Class Configuration
+ *
+ * @package Rcs\AdminBundle\DependencyInjection
+ */
+class Configuration implements ConfigurationInterface
+{
+
+    /**
+     * Generates the configuration tree builder.
+     *
+     * @return \Symfony\Component\Config\Definition\Builder\TreeBuilder The tree builder
+     */
+    public function getConfigTreeBuilder()
+    {
+        $treeBuilder = new TreeBuilder('rcs_admin');
+
+        return $treeBuilder;
+    }
+}

@@ -1,0 +1,5 @@
+
+###> kabiroman/admin-bundle ###
+/vendor/
+composer.lock
+###< kabiroman/admin-bundle ###
