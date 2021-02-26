@@ -1,5 +1,5 @@
 {
-    "name": "kabiroman/admin-bundle",
+    "name": "kabiroman/rcsadmin-bundle",
     "description": "Admin panel for symfony 5.2",
     "type": "symfony-bundle",
     "license": "proprietary",
