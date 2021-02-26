@@ -1,0 +1,9 @@
+parameters:
+    templates:
+        - 'base'
+        - 'layout'
+services:
+    Rcs\AdminBundle\AdminPanel\TemplateManager:
+        arguments:
+            - '@twig'
+            - '%templates%'

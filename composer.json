@@ -10,6 +10,7 @@
         "ext-ctype": "*",
         "ext-iconv": "*",
         "symfony/framework-bundle": "5.2.*",
+        "symfony/twig-pack": "^1.0",
         "symfony/yaml": "5.2.*"
     },
     "require-dev": {
