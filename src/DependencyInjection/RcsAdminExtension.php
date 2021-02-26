@@ -16,11 +16,11 @@ use Symfony\Component\HttpKernel\DependencyInjection\Extension;
 use Symfony\Component\DependencyInjection\Loader;
 
 /**
- * Class AdminExtension
+ * Class RcsAdminExtension
  *
  * @package Rcs\AdminBundle\DependencyInjection
  */
-class AdminExtension extends Extension
+class RcsAdminExtension extends Extension
 {
 
     /**
