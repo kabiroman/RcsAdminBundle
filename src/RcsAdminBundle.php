@@ -13,11 +13,11 @@ namespace Rcs\AdminBundle;
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
 /**
- * Class AdminBundle
+ * Class RcsAdminBundle
  *
  * @package Rcs\AdminBundle
  */
-class AdminBundle extends Bundle
+class RcsAdminBundle extends Bundle
 {
 
 }

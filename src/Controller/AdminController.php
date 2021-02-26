@@ -13,7 +13,7 @@ namespace Rcs\AdminBundle\Controller;
 use Rcs\AdminBundle\AdminPanel\TemplateManager;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Request;
-//use Symfony\Component\HttpFoundation\Response;
+use Symfony\Component\HttpFoundation\Response;
 
 /**
  * Class AdminController
@@ -55,8 +55,8 @@ abstract class AdminController extends AbstractController
         return $this->templateManager;
     }
 
-    protected function renderAdminPanel()//: Response
+    protected function renderAdminPanel(): Response
     {
-        // TODO
+        return $this->render('@RcsAdmin/panel/layout.html.twig', [ ]);
     }
 }

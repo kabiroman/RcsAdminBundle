@@ -20,10 +20,12 @@ use Twig\Environment;
 class TemplateManager
 {
     protected $twig;
+    protected $templates;
 
-    public function __construct(Environment $twig)
+    public function __construct(Environment $twig, array $templates)
     {
         $this->twig = $twig;
+        $this->templates = $templates;
     }
 
     public function getNames(): array
